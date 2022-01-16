@@ -651,7 +651,7 @@ img {
     0px 2px 1px rgb(0 0 0 / 20%);
   border-radius: 4px;
   min-width: 528px;
-  min-height: 581px;
+  min-height: 521px;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
@@ -673,7 +673,9 @@ img {
   border: 1px solid rgba(0, 0, 0, 0.1);
   cursor: pointer;
 }
-
+.modal :hover {
+  transform: scale(1.25);
+}
 .thumb {
   position: relative;
   overflow: hidden;
