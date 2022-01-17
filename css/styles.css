@@ -637,6 +637,7 @@ img {
 .backdrop {
   z-index: 2;
   position: fixed;
+  opacity: 1;
   top: 0;
   right: 0;
   width: 100%;
